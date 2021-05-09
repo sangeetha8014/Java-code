@@ -15,18 +15,16 @@ public class Evencheck {
 			Scanner scanner = new Scanner(System.in);
 			System.out.println("Enter the number: ");
 			x = scanner.nextInt();
-		
-			if (x / 2 == 0) {
-		System.out.println("Number is Evennumber");
+			int ans = x%2;
+			if (ans == 0) {
+				System.out.println("Number is Evennumber");
 			}
 			else {
 			System.out.println("Number is odd");
+			}
 			
 		}
 		while (x!=0);
-
-	  }
-
 	}
 }
 

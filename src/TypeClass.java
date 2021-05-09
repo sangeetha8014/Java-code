@@ -20,8 +20,7 @@ public class TypeClass {
 		 int num1 = (int) num;
 		 
 		 System.out.println("Value :" + num1);
-		 
-		 
+		 		 
 		 
 	}
 
